@@ -10,9 +10,9 @@ __Procedimiento:__
 
 ![nfi flowfile](https://github.com/sozanmen/ejercicio_nifi_elk/blob/main/images/1_FlowFile_Nifi.png)
 
- - InvokeHttp: Recibimos los datos reflejados en "data.cityofnewyork".
- - SplitJson: Convertimos en formado a Json
- - PutElasticSeacrh: Enviamos los datos e Elasticsearch, creándo el índice "nifi_elk". 
+..* - InvokeHttp: Recibimos los datos reflejados en "data.cityofnewyork".
+..* - SplitJson: Convertimos en formado a Json
+..* - PutElasticSeacrh: Enviamos los datos e Elasticsearch, creándo el índice "nifi_elk". 
 
 3. Con el objetivo de reflejar los datos en un Coordinate Map, reindexamos en dev tools, para convertir la location en un geopoint.
 
