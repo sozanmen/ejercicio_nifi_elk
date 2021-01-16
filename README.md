@@ -14,8 +14,8 @@ __Procedimiento:__
   - SplitJson: Convertimos en formado a Json
   - PutElasticSeacrh: Enviamos los datos e Elasticsearch, creándo el índice "nifi_elk". 
 
-3. Con el objetivo de reflejar los datos en un Coordinate Map, reindexamos en dev tools, para convertir "location" en un geopoint (en vez de un string).
+3. Accedemos a la consola de Kibana, y reindexamos "Location" en un geo_point.
 
-4. Así pues, ya podemos visualizar el archivo reindexado. 
+5. Ya podemos visualizar el archivo reindexado en Kibana.  
 
 ![mapa](https://github.com/sozanmen/ejercicio_nifi_elk/blob/main/images/8_Kibana_Map.png)
