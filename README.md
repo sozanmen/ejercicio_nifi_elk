@@ -1,8 +1,5 @@
 # Ejercicio_Nifi_Elk
 
-![Logo ELK](https://www.intellectualpoint.com/wp-content/uploads/2019/05/Elk-Stack-Logo.png)
-![Logo Nifi](https://www.centerity.com/wp-content/uploads/2018/08/nifi-1.png)
-
  __Alumna:__ *Sofia Zander Mendoza*
 
 __Procedimiento:__
