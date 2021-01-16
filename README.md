@@ -11,7 +11,7 @@ __Procedimiento:__
 ![nfi flowfile](https://github.com/sozanmen/ejercicio_nifi_elk/blob/main/images/1_FlowFile_Nifi.png)
 
   - InvokeHttp: Recibimos los datos reflejados en "data.cityofnewyork".
-  - SplitJson: Convertimos en formado a Json
+  - SplitJson: Convertimos en formato Json
   - PutElasticSeacrh: Enviamos los datos e Elasticsearch, creándo el índice "nifi_elk". 
 
 3. Accedemos a la consola de Kibana, y reindexamos "Location" en un geo_point.
